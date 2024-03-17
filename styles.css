@@ -1,0 +1,240 @@
+@font-face {
+    font-family: main;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER STYLES */
+
+.header{
+    display: flex;
+    font-family: main;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25vw 2vw;
+}
+
+.headerLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.headerLeft h1{
+    color: #000000;
+    font-size: 2.5vw;
+}
+
+.headerLeft h3{
+    color: #5050FF;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+.headerRight input{
+    padding: 0.5vw 1vw;
+    width: 15vw;
+    border-radius: 12px;
+    font-family: main;
+    font-size: 0.75vw;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+
+/* LANDING PAGE STYLES */
+
+.landingNav{
+    display: flex;
+    gap: 1vw;
+    padding: 0.5vw 2vw;
+    border-top: 2px solid #a9a9a9;
+    border-bottom: 2px solid #a9a9a9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.landingNav a{
+    font-family: main;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.hero{
+    margin-top: 5vh;
+    border-radius: 10px;
+    padding: 3vw;
+    background-color: #B3B3B3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroTitle{
+    font-family: main;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: 450;
+    margin-bottom: 5vh;
+}
+
+.heroSubTitle{
+    font-family: main;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #2f2f2f;
+    margin-bottom: 8vh;
+}
+
+.heroBtn{
+    font-family: main;
+    font-size: 1vw;
+    font-weight: 450;
+    padding: 0.25vw 1vw;
+    background-color: #5050FF;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.heroBtn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #5050FF;
+    border: 1px solid #5050FF;
+}
+
+.FAQ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+.FAQtitle{
+    font-family: main;
+    font-weight: 600;
+    font-size: 1.25vw;
+    margin-bottom: 2vh;
+}
+
+.faqBtn{
+    margin: 1vh;
+    padding: 1vw 2vw;
+    border-radius: 20px;
+    border: 1px solid #2f2f2f;
+    font-family: main;
+    font-weight: 500;
+    font-size: 0.8vw;
+}
+
+.formContainer{
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border: 1px solid #2f2f2f;
+    padding: 3vw 6vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formTitle{
+    font-family: main;
+    font-weight: 500;
+    font-size: 1.25vw;
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+}
+
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInput{
+    width: 30vw;
+    border: 1px solid #2f2f2f;
+    border-radius: 30px;
+    margin: 1.5vh;
+    height: 3vh;
+}
+
+.formBtn{
+    font-family: main;
+    font-size: 0.75vw;
+    font-weight: 450;
+    padding: 0.25vw 1vw;
+    background-color: #5050FF;
+    color: white;
+    border-radius: 80px;
+    border: 1px transparent solid;
+    margin-top: 2vh;
+    margin-right: -24vw;
+    transition: 0.3s ease-in-out;
+}
+
+.formBtn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #5050FF;
+    border-radius: 80px;
+    border: 1px solid #5050FF;
+}
+
+.toTopBtn{
+    font-family: main;
+    font-size: 0.75vw;
+    font-weight: 500;
+    padding: 0.25vw 1vw;
+    background-color: #a9a9a9;
+    color: #000000;
+    border-radius: 80px;
+    border: 1px transparent solid;
+    margin-left: 47vw;
+    transition: 0.3s ease-in-out;
+}
+
+.toTopBtn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 80px;
+    border: 1px solid #000000;
+}
+
+.footerLanding{
+    display: flex;
+    padding: 1vw 4vw;
+    border-top: 1px solid #2f2f2f;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.footerLink{
+    font-family: main;
+    margin-right: 2vw;
+    font-weight: 500;
+}
+
+.footerLink:hover{
+    cursor: pointer;
+}
